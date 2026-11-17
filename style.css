@@ -1,0 +1,88 @@
+body {
+  background-color: #46e5e8;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 30px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#main-header {
+  background-color: rgb(62, 3, 3);
+  color: rgb(233, 77, 77);
+  padding: 2px;
+  text-align: center;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-item {
+  display: inline-block;
+  margin: 2px;
+} /* cool le css */
+
+.nav-list a {
+  text-decoration: none;
+}
+.nav-list a:hover {
+  color: aqua;
+}
+
+#main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.post-card {
+  display: inline-block;
+  width: 48%;
+  border: 2px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: lightseagreen;
+}
+
+.post-thumbnail {
+  max-width: 100%;
+  height: auto;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  border-bottom: 2px;
+  padding: 12px;
+  text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: lightgrey;
+}
+
+.transcript-box {
+  padding: 2px;
+  border-left: 50px solid #e3ed17;
+}
+
+#main-footer {
+  background-color: #000;
+  text-align: center;
+  color: antiquewhite;
+}
+
+.contact-info {
+  padding: 25px;
+  line-height: 50px;
+}
+
+summary:hover {
+  cursor: pointer;
+}
