@@ -44,7 +44,7 @@ body {
   border: 2px;
   background-color: white;
   border-radius: 5px;
-  box-shadow: lightseagreen;
+  box-shadow: 10px 10px 5px black;
 }
 
 .post-thumbnail {
