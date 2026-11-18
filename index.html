@@ -1,217 +1,197 @@
 <!doctype html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Webzine culturel</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header id="main-header">
-      <svg class="site-logo" width="200" height="200">
-        <g color="red">
-          <circle
-            cx="100"
-            cy="100"
-            r="75"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="5"
-          ></circle>
-          <rect width="50" height="50" x="75" y="75"></rect>
-        </g>
-      </svg>
-      <h1>Webzine Culturel</h1>
-      <nav class="navbar">
-        <ul class="nav-list">
-          <li class="nav-item"><a href="">Accueil</a></li>
-          <li class="nav-item"><a href="">Actualités</a></li>
-          <li class="nav-item"><a href="">Podcast</a></li>
-          <li class="nav-item"><a href="">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main id="main-content">
-      <section id="hero-section">
-        <h2>Présentation et Découverte</h2>
-        <p>
-          <abbr title="Volkan">Je</abbr> présente le
-          <mark>webzine culturel</mark>
-        </p>
-        <br />
-        <p>Je fais découvrir le <mark>webzine culurel</mark></p>
-        <video controls class="promo-video">
-          <source src="jsp.mp4" type="video/mp4" />
-          <track kind="subtitles" src="jsp.vtt" srclang="fr" label="Français" />
-        </video>
-      </section>
-      <section id="latest-posts">
-        <h2>Flux d'Actualités</h2>
-        <article class="post-card">
-          <header class="post-date">
-            <h3>Article 1</h3>
-            <p>
-              Article posté le
-              <time datetime="2026-10-10">10 Ocotobre 2026</time>
-            </p>
-          </header>
-          <img class="post-thumbnail" src="img.jpg" alt="image" />
-          <p>Wouaw super</p>
-          <footer>
-            <ul>
-              <li>woaw</li>
-              <li>super</li>
-            </ul>
-            <a href="">Lire la suite</a>
-          </footer>
-        </article>
-        <article class="post-card">
-          <header class="post-date">
-            <h3>Article 2</h3>
-            <p>
-              Article posté le
-              <time datetime="2026-10-11">11 Ocotobre 2026</time>
-            </p>
-          </header>
-          <img class="post-thumbnail" src="img.jpg" alt="image" />
-          <p>Ohlala génial</p>
-          <footer>
-            <ul>
-              <li>ohlala</li>
-              <li>génial</li>
-            </ul>
-            <a href="">Lire la suite</a>
-          </footer>
-        </article>
-        <article class="post-card">
-          <h3>Article 3</h3>
-          <header class="post-date">
-            <p>
-              Article posté le
-              <time datetime="2026-10-12">12 Ocotobre 2026</time>
-            </p>
-          </header>
-          <img class="post-thumbnail" src="img.jpg" alt="image" />
-          <p>Incroyable</p>
-          <footer>
-            <ul>
-              <li>incroyable</li>
-            </ul>
-            <a href="">Lire la suite</a>
-          </footer>
-        </article>
-        <article class="post-card">
-          <h3>Article 4</h3>
-          <header class="post-date">
-            <p>
-              Article posté le
-              <time datetime="2026-10-13">13 Ocotobre 2026</time>
-            </p>
-          </header>
-          <img class="post-thumbnail" src="img.jpg" alt="image" />
-          <p>Masterchiasse</p>
-          <footer>
-            <ul>
-              <li>masterchiasse</li>
-            </ul>
-            <a href="">Lire la suite</a>
-          </footer>
-        </article>
-      </section>
-      <section id="media-center">
-        <h2>Espace Podcast & Transcription</h2>
-        <audio src="audio.mp3" controls class="podcast-player"></audio>
-        <details class="transcript-box">
-          <summary>Afficher la transcription</summary>
-          <dl>
-            <dt>Nom</dt>
-            <dd>blablabla</dd>
-          </dl>
-        </details>
-      </section>
-      <section id="authors-rankings">
-        <h2>Données Statistiques</h2>
-        <table class="data-table">
-          <caption>
-            Tableau
-          </caption>
-          <thead>
-            <tr>
-              <th>Rang</th>
-              <th>Rédacteur</th>
-              <th>Spécialité</th>
-              <th>Articles publiés</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>1er</td>
-              <td>Mr.X</td>
-              <td>Horreur</td>
-              <td>Le cauchemar du compte</td>
-            </tr>
-            <tr>
-              <td>2eme</td>
-              <td>Mme.L</td>
-              <td>Romance</td>
-              <td>Polo et les 40 chaudasses</td>
-            </tr>
-            <tr>
-              <td>3eme</td>
-              <td>Mr.P</td>
-              <td>Action</td>
-              <td>Le train de l'enfer</td>
-            </tr>
-          </tbody>
-          <tfoot>
-            <tr>
-              <td>3 gagants</td>
-              <td>3 personnes</td>
-              <td>3 genres</td>
-              <td>3 titres</td>
-            </tr>
-          </tfoot>
-        </table>
-      </section>
-      <section id="interactive-zone">
-        <h2>Interactivité Visuelle</h2>
-        <img
-          src="images/TFUwF.jpg"
-          alt="plan"
-          usemap="#mapskyrim"
-          width="400"
-          height="400"
-        />
-        <map name="mapskyrim">
-          <area
-            shape="rect"
-            coords="120,320,200,850"
-            href="rectangle"
-            alt="rectangle"
-          />
-          <area
-            shape="circle"
-            coords="86,21,73"
-            href="circle.html"
-            alt="circle"
-          />
-        </map>
-        <canvas width="400" height="200" class="stats-canvas"></canvas>
-      </section>
-    </main>
-    <hr />
-    <footer id="main-footer">
-      <address class="contact-info">
-        <p>Webzine culturel</p>
-        <p>Planète Terre</p>
-        <a href="mailto:udhudzh">Email</a>
-      </address>
-      <ul>
-        <li><a href="">Mentions légales</a></li>
-        <li><a href="">Plan du site</a></li>
-        <li><a href="">Etc</a></li>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webzine culturel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header id="main-header">
+    <svg class="site-logo" width="200" height="200">
+      <g color="red">
+        <circle cx="100" cy="100" r="75" fill="none" stroke="currentColor" stroke-width="5"></circle>
+        <rect width="50" height="50" x="75" y="75"></rect>
+      </g>
+    </svg>
+    <h1>Webzine Culturel</h1>
+    <nav class="navbar">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="">Accueil</a></li>
+        <li class="nav-item"><a href="">Actualités</a></li>
+        <li class="nav-item"><a href="">Podcast</a></li>
+        <li class="nav-item"><a href="">Contact</a></li>
       </ul>
-      <small class="copyright-text">© 2026 - Tous droits réservés</small>
-    </footer>
-  </body>
+    </nav>
+  </header>
+  <main id="main-content">
+    <section id="hero-section">
+      <h2>Présentation et Découverte</h2>
+      <p>
+        <abbr title="Volkan">Je</abbr> présente le
+        <mark>webzine culturel</mark>
+      </p>
+      <br>
+      <p>Je fais découvrir le <mark>webzine culurel</mark></p>
+      <video controls class="promo-video">
+        <source src="jsp.mp4" type="video/mp4">
+        <track kind="subtitles" src="jsp.vtt" srclang="fr" label="Français">
+      </video>
+    </section>
+    <section id="latest-posts">
+      <h2>Flux d'Actualités</h2>
+      <article class="post-card">
+        <header class="post-date">
+          <h3>Article 1</h3>
+          <p>
+            Article posté le
+            <time datetime="2026-10-10">10 Ocotobre 2026</time>
+          </p>
+        </header>
+        <img class="post-thumbnail" src="img.jpg" alt="image">
+        <p>Wouaw super</p>
+        <footer>
+          <ul>
+            <li>woaw</li>
+            <li>super</li>
+          </ul>
+          <a href="">Lire la suite</a>
+        </footer>
+      </article>
+      <article class="post-card">
+        <header class="post-date">
+          <h3>Article 2</h3>
+          <p>
+            Article posté le
+            <time datetime="2026-10-11">11 Ocotobre 2026</time>
+          </p>
+        </header>
+        <img class="post-thumbnail" src="img.jpg" alt="image">
+        <p>Ohlala génial</p>
+        <footer>
+          <ul>
+            <li>ohlala</li>
+            <li>génial</li>
+          </ul>
+          <a href="">Lire la suite</a>
+        </footer>
+      </article>
+      <article class="post-card">
+        <h3>Article 3</h3>
+        <header class="post-date">
+          <p>
+            Article posté le
+            <time datetime="2026-10-12">12 Ocotobre 2026</time>
+          </p>
+        </header>
+        <img class="post-thumbnail" src="img.jpg" alt="image">
+        <p>Incroyable</p>
+        <footer>
+          <ul>
+            <li>incroyable</li>
+          </ul>
+          <a href="">Lire la suite</a>
+        </footer>
+      </article>
+      <article class="post-card">
+        <h3>Article 4</h3>
+        <header class="post-date">
+          <p>
+            Article posté le
+            <time datetime="2026-10-13">13 Ocotobre 2026</time>
+          </p>
+        </header>
+        <img class="post-thumbnail" src="img.jpg" alt="image">
+        <p>Masterchiasse</p>
+        <footer>
+          <ul>
+            <li>masterchiasse</li>
+          </ul>
+          <a href="">Lire la suite</a>
+        </footer>
+      </article>
+    </section>
+    <section id="media-center">
+      <h2>Espace Podcast & Transcription</h2>
+      <audio src="audio.mp3" controls class="podcast-player"></audio>
+      <details class="transcript-box">
+        <summary>Afficher la transcription</summary>
+        <dl>
+          <dt>Nom</dt>
+          <dd>blablabla</dd>
+        </dl>
+      </details>
+    </section>
+    <section id="authors-rankings">
+      <h2>Données Statistiques</h2>
+      <table class="data-table">
+        <caption>
+          Tableau
+        </caption>
+        <thead>
+          <tr>
+            <th>Rang</th>
+            <th>Rédacteur</th>
+            <th>Spécialité</th>
+            <th>Articles publiés</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1er</td>
+            <td>Mr.X</td>
+            <td>Horreur</td>
+            <td>Le cauchemar du compte</td>
+          </tr>
+          <tr>
+            <td>2eme</td>
+            <td>Mme.L</td>
+            <td>Romance</td>
+            <td>Polo et les 40 chaudasses</td>
+          </tr>
+          <tr>
+            <td>3eme</td>
+            <td>Mr.P</td>
+            <td>Action</td>
+            <td>Le train de l'enfer</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>3 gagants</td>
+            <td>3 personnes</td>
+            <td>3 genres</td>
+            <td>3 titres</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+    <section id="interactive-zone">
+      <h2>Interactivité Visuelle</h2>
+      <img src="images/TFUwF.jpg" alt="plan" usemap="#mapskyrim" width="400" height="400">
+      <map name="mapskyrim">
+        <area shape="rect" coords="120,320,200,850" href="rectangle" alt="rectangle">
+        <area shape="circle" coords="86,21,73" href="circle.html" alt="circle">
+      </map>
+      <canvas width="400" height="200" class="stats-canvas"></canvas>
+    </section>
+  </main>
+  <hr>
+  <footer id="main-footer">
+    <address class="contact-info">
+      <p>Webzine culturel</p>
+      <p>Planète Terre</p>
+      <a href="mailto:udhudzh">Email</a>
+    </address>
+    <ul>
+      <li><a href="">Mentions légales</a></li>
+      <li><a href="">Plan du site</a></li>
+      <li><a href="">Etc</a></li>
+    </ul>
+    <small class="copyright-text">© 2026 - Tous droits réservés</small>
+  </footer>
+</body>
+
 </html>
